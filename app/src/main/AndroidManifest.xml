@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyProgrammingQuizApp">
-        <activity android:name=".SimpleQuizMenu"></activity>
+        <activity android:name=".ProgrammingQuizMenu"></activity>
+        <activity android:name=".SimpleQuizMenu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
